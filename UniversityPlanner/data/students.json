@@ -1,0 +1,28 @@
+[
+  {
+    "studentId": "STU001",
+    "name": "Omar Hassan",
+    "completedCourseIds": [
+      "CE101",
+      "MTH101",
+      "CS101"
+    ]
+  },
+  {
+    "studentId": "STU002",
+    "name": "Mariam Ali",
+    "completedCourseIds": [
+      "CE101",
+      "MTH101",
+      "CS101",
+      "MTH201",
+      "CS201",
+      "DS201"
+    ]
+  },
+  {
+    "studentId": "STU003",
+    "name": "Youssef Adel",
+    "completedCourseIds": []
+  }
+]

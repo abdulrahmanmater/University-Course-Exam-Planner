@@ -1,0 +1,12 @@
+[
+  {
+    "fromBuildingId": "X01",
+    "toBuildingId": "X02",
+    "distance": 50
+  },
+  {
+    "fromBuildingId": "X03",
+    "toBuildingId": "X04",
+    "distance": 70
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "courseId": "T101",
+    "code": "T101",
+    "name": "Cycle Test A",
+    "prerequisiteCourseIds": [
+      "T103"
+    ]
+  },
+  {
+    "courseId": "T102",
+    "code": "T102",
+    "name": "Cycle Test B",
+    "prerequisiteCourseIds": [
+      "T101"
+    ]
+  },
+  {
+    "courseId": "T103",
+    "code": "T103",
+    "name": "Cycle Test C",
+    "prerequisiteCourseIds": [
+      "T102"
+    ]
+  }
+]

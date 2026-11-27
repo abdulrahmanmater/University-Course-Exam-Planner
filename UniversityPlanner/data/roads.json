@@ -1,0 +1,62 @@
+[
+  {
+    "fromBuildingId": "B01",
+    "toBuildingId": "B02",
+    "distance": 120
+  },
+  {
+    "fromBuildingId": "B01",
+    "toBuildingId": "B05",
+    "distance": 210
+  },
+  {
+    "fromBuildingId": "B02",
+    "toBuildingId": "B03",
+    "distance": 90
+  },
+  {
+    "fromBuildingId": "B02",
+    "toBuildingId": "B04",
+    "distance": 140
+  },
+  {
+    "fromBuildingId": "B03",
+    "toBuildingId": "B06",
+    "distance": 160
+  },
+  {
+    "fromBuildingId": "B03",
+    "toBuildingId": "B08",
+    "distance": 110
+  },
+  {
+    "fromBuildingId": "B04",
+    "toBuildingId": "B06",
+    "distance": 100
+  },
+  {
+    "fromBuildingId": "B05",
+    "toBuildingId": "B06",
+    "distance": 130
+  },
+  {
+    "fromBuildingId": "B05",
+    "toBuildingId": "B07",
+    "distance": 170
+  },
+  {
+    "fromBuildingId": "B06",
+    "toBuildingId": "B07",
+    "distance": 80
+  },
+  {
+    "fromBuildingId": "B06",
+    "toBuildingId": "B08",
+    "distance": 95
+  },
+  {
+    "fromBuildingId": "B07",
+    "toBuildingId": "B08",
+    "distance": 125
+  }
+]

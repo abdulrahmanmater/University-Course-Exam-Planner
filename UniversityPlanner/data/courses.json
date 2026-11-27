@@ -1,0 +1,98 @@
+[
+  {
+    "courseId": "CE101",
+    "code": "CE101",
+    "name": "Introduction to Computer Engineering",
+    "prerequisiteCourseIds": []
+  },
+  {
+    "courseId": "MTH101",
+    "code": "MTH101",
+    "name": "Calculus I",
+    "prerequisiteCourseIds": []
+  },
+  {
+    "courseId": "CS101",
+    "code": "CS101",
+    "name": "Programming Fundamentals",
+    "prerequisiteCourseIds": [
+      "CE101"
+    ]
+  },
+  {
+    "courseId": "MTH201",
+    "code": "MTH201",
+    "name": "Discrete Mathematics",
+    "prerequisiteCourseIds": [
+      "MTH101"
+    ]
+  },
+  {
+    "courseId": "CS201",
+    "code": "CS201",
+    "name": "Object-Oriented Programming",
+    "prerequisiteCourseIds": [
+      "CS101",
+      "MTH201"
+    ]
+  },
+  {
+    "courseId": "DS201",
+    "code": "DS201",
+    "name": "Data Structures",
+    "prerequisiteCourseIds": [
+      "CS101"
+    ]
+  },
+  {
+    "courseId": "DS301",
+    "code": "DS301",
+    "name": "Advanced Data Structures",
+    "prerequisiteCourseIds": [
+      "DS201",
+      "CS201"
+    ]
+  },
+  {
+    "courseId": "ALG301",
+    "code": "ALG301",
+    "name": "Design and Analysis of Algorithms",
+    "prerequisiteCourseIds": [
+      "DS201"
+    ]
+  },
+  {
+    "courseId": "DB301",
+    "code": "DB301",
+    "name": "Database Systems",
+    "prerequisiteCourseIds": [
+      "CS201"
+    ]
+  },
+  {
+    "courseId": "SE301",
+    "code": "SE301",
+    "name": "Software Engineering",
+    "prerequisiteCourseIds": [
+      "DB301",
+      "DS301"
+    ]
+  },
+  {
+    "courseId": "NET301",
+    "code": "NET301",
+    "name": "Computer Networks",
+    "prerequisiteCourseIds": [
+      "CS101"
+    ]
+  },
+  {
+    "courseId": "AI401",
+    "code": "AI401",
+    "name": "Introduction to Artificial Intelligence",
+    "prerequisiteCourseIds": [
+      "ALG301",
+      "MTH201"
+    ]
+  }
+]

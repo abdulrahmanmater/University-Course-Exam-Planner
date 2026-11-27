@@ -1,0 +1,18 @@
+[
+  {
+    "buildingId": "X01",
+    "name": "Test Building A"
+  },
+  {
+    "buildingId": "X02",
+    "name": "Test Building B"
+  },
+  {
+    "buildingId": "X03",
+    "name": "Test Building C"
+  },
+  {
+    "buildingId": "X04",
+    "name": "Test Building D"
+  }
+]
