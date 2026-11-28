@@ -2,6 +2,22 @@
 
 ELE331 · Algorithms and Data Structures · Team Project 2 — offline Java + JavaFX app.
 
+## Team & Work Split
+
+| Member   | Name                              | Track                   |
+| -------- | --------------------------------- | ----------------------- |
+| Member 1 | Mohamed Sayed Mostafa Abdel Hafiz | Exams & Performance     |
+| Member 2 | Sayed Ayman Sayed Ghazal          | Courses & Prerequisites |
+| Member 3 | Abdelrahman Hassan Hussein Matar  | Campus & App Shell      |
+
+**Data structures (11, from scratch)**
+
+- Member 1: DynamicArray, Stack, HashTable, BST
+- Member 2: Queue, MinHeap, DirectedGraph
+- Member 3: Edge, UndirectedWeightedGraph, UnionFind, IndexMinPQ
+
+Full proposal: [docs/ELE331-M1-Proposal.pdf](docs/ELE331-M1-Proposal.pdf)
+
 ## Architecture
 
 Layers call **only the layer below them**:
@@ -11,7 +27,7 @@ app (Main, ScreenRouter)
   -> ui (7 JavaFX screens)
     -> services (7 features, in-memory state)
       -> algorithms (11 static procedures)
-        -> structures (13 structures, from scratch)
+        -> structures (12 structures, from scratch)
           -> model (9 plain field holders)
             -> data (DataLoader + 8 loaders; the only JSON-importing package)
 ```
@@ -35,12 +51,12 @@ No `java.util` collections in `structures` or above. The JSON library is importe
     │   ├── ui/          7 screens
     │   ├── services/    7 services
     │   ├── algorithms/  sorts, traversals, shortest path, MST
-    │   ├── structures/  13 structures
+    │   ├── structures/  12 structures
     │   ├── model/       9 plain data classes
     │   ├── data/        DataLoader + 8 loaders + JsonError
     │   └── utils/       date/time, error type, FX helpers
     └── test/java/eg/edu/benha/ele331/
-        ├── structures/  13 test skeletons
+        ├── structures/  12 test skeletons
         └── algorithms/  11 test skeletons
 ```
 
@@ -58,11 +74,11 @@ Methods throw `UnsupportedOperationException` so unfinished code fails loudly.
 
 ## Ownership
 
-| Owner | Area | Files |
-| --- | --- | --- |
-| M1 · Exams & Performance | exams, performance, README | `ExamsView`, `PerformanceAnalysisView`, `ExamSchedulingService`, `ExamConflictService`, `PerformanceAnalysisService`, `InsertionSort`, `MergeSort`, `HeapSort`, `DoublingRatio`, `Exam`, `ExamSlot`, `ExamAssignment`, `Room`, `ExamsLoader`, `ExamSlotsLoader`, `RoomsLoader`, `DateTimeUtil`, `TimeRange` |
-| M2 · Courses & Prerequisites | courses, study plan, graph | `CoursesView`, `StudyPlannerView`, `PrerequisiteAnalyzerView`, `CourseService`, `StudyPlannerService`, `PrerequisiteService`, `DFS`, `CycleDetection`, `TopologicalSort`, `DirectedGraph`, `Course`, `Student`, `Enrollment`, `CoursesLoader`, `StudentsLoader`, `EnrollmentsLoader` |
-| M3 · Campus & App shell | boot, navigation, campus | `Main`, `ScreenRouter`, `Dashboard`, `CampusNavigationView`, `CampusNavigationService`, `BFS`, `ConnectedComponents`, `Dijkstra`, `Kruskal`, `Graph`, `Edge`, `UndirectedWeightedGraph`, `UnionFind`, `IndexMinPQ`, `LLRB`, `Building`, `Road`, `DataLoader`, `JsonError`, `BuildingsLoader`, `RoadsLoader`, `AppError`, `ErrorHandler`, `FxUtil` |
+| Owner                        | Area                       | Files                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| M1 · Exams & Performance     | exams, performance, README | `ExamsView`, `PerformanceAnalysisView`, `ExamSchedulingService`, `ExamConflictService`, `PerformanceAnalysisService`, `InsertionSort`, `MergeSort`, `HeapSort`, `DoublingRatio`, `Exam`, `ExamSlot`, `ExamAssignment`, `Room`, `ExamsLoader`, `ExamSlotsLoader`, `RoomsLoader`, `DateTimeUtil`, `TimeRange`                               |
+| M2 · Courses & Prerequisites | courses, study plan, graph | `CoursesView`, `StudyPlannerView`, `PrerequisiteAnalyzerView`, `CourseService`, `StudyPlannerService`, `PrerequisiteService`, `DFS`, `CycleDetection`, `TopologicalSort`, `DirectedGraph`, `Course`, `Student`, `Enrollment`, `CoursesLoader`, `StudentsLoader`, `EnrollmentsLoader`                                                      |
+| M3 · Campus & App shell      | boot, navigation, campus   | `Main`, `ScreenRouter`, `Dashboard`, `CampusNavigationView`, `CampusNavigationService`, `BFS`, `ConnectedComponents`, `Dijkstra`, `Kruskal`, `Graph`, `Edge`, `UndirectedWeightedGraph`, `UnionFind`, `IndexMinPQ`, `Building`, `Road`, `DataLoader`, `JsonError`, `BuildingsLoader`, `RoadsLoader`, `AppError`, `ErrorHandler`, `FxUtil` |
 
 Shared by all: the remaining structures (`DynamicArray`, `Stack`, `HashTable`, `BST`, `Queue`, `MinHeap`), `utils` basics and every test skeleton.
 
