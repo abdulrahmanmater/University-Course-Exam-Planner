@@ -1,0 +1,34 @@
+[
+  {
+    "buildingId": "B01",
+    "name": "Main Gate"
+  },
+  {
+    "buildingId": "B02",
+    "name": "Engineering Administration"
+  },
+  {
+    "buildingId": "B03",
+    "name": "Computer Engineering Building"
+  },
+  {
+    "buildingId": "B04",
+    "name": "Electrical Engineering Building"
+  },
+  {
+    "buildingId": "B05",
+    "name": "Central Library"
+  },
+  {
+    "buildingId": "B06",
+    "name": "Main Lecture Halls"
+  },
+  {
+    "buildingId": "B07",
+    "name": "Student Activities Building"
+  },
+  {
+    "buildingId": "B08",
+    "name": "Laboratories Building"
+  }
+]

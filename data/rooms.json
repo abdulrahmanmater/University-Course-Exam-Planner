@@ -1,0 +1,14 @@
+[
+  {
+    "roomId": "R01",
+    "name": "Hall A",
+    "capacity": 120,
+    "buildingId": "B06"
+  },
+  {
+    "roomId": "R02",
+    "name": "Lab 3",
+    "capacity": 40,
+    "buildingId": "B08"
+  }
+]

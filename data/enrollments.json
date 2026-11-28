@@ -1,0 +1,12 @@
+[
+  {
+    "studentId": "STU001",
+    "courseId": "CS201",
+    "semester": "2026-1"
+  },
+  {
+    "studentId": "STU002",
+    "courseId": "DS201",
+    "semester": "2026-1"
+  }
+]

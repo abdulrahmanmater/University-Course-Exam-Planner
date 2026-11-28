@@ -1,0 +1,12 @@
+[
+  {
+    "examId": "EX001",
+    "courseId": "CS101",
+    "durationMinutes": 120
+  },
+  {
+    "examId": "EX002",
+    "courseId": "MTH201",
+    "durationMinutes": 180
+  }
+]
